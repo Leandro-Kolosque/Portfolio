@@ -215,3 +215,39 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+
+export const logoIconsList = [
+  {
+    imgPath: "company-logo-1.png",
+  },
+  {
+    imgPath: "company-logo-2.png",
+  },
+  {
+    imgPath: "company-logo-3.png",
+  },
+  {
+    imgPath: "company-logo-4.png",
+  },
+  {
+    imgPath: "company-logo-5.png",
+  },
+  {
+    imgPath: "company-logo-6.png",
+  },
+  {
+    imgPath: "company-logo-7.png",
+  },
+  {
+    imgPath: "company-logo-8.png",
+  },
+  {
+    imgPath: "company-logo-9.png",
+  },
+  {
+    imgPath: "company-logo-10.png",
+  },
+  {
+    imgPath: "company-logo-11.png",
+  },
+];
