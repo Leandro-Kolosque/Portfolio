@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Leandro Kolosque – Portfolio
 
-## Getting Started
+<p align="center">
+  <img src="public/thumbnail.png" alt="Thumbnail" width="800"/>
+</p>
 
-First, run the development server:
+[![Status](https://img.shields.io/badge/Status-Online-brightgreen)]()
+[![Tecnologias](https://img.shields.io/badge/Tech-React%20|%20Vite%20|%20TailwindCSS%20|%20Framer%20Motion%20|%20TypeScript-blue)]()
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-lightgrey)]()
+
+---
+
+## 📖 Descrição
+
+Meu portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e trajetória na área de desenvolvimento.  
+Construído com foco em **performance, acessibilidade e experiência do usuário**, utiliza **React, Vite e TailwindCSS** para um design moderno e responsivo, além de **Framer Motion** para animações suaves.
+
+---
+
+## 🚀 Recursos Principais
+
+- **Design Responsivo:** otimizado para diferentes dispositivos.  
+- **Animações Fluidas:** transições criadas com Framer Motion.  
+- **Performance e Escalabilidade:** construído com Vite e TypeScript.  
+- **Organização de Projetos:** apresentação clara dos trabalhos desenvolvidos.  
+- **Contato Direto:** links para redes e e-mail.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React + Vite** – estrutura moderna para aplicações rápidas.  
+- **TailwindCSS** – estilização eficiente e altamente customizável.  
+- **Framer Motion** – animações suaves e performáticas.  
+- **TypeScript** – código mais seguro e escalável.
+
+---
+
+## 🔧 Como Executar Localmente
 
 ```bash
+# Clone este repositório
+git clone https://github.com/Leandro-Kolosque/Portfolio
+
+# Acesse a pasta do projeto
+cd portfolio
+
+# Instale as dependências
+npm install
+
+# Execute o projeto em ambiente de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contribuição & Feedback
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contribuições são sempre bem-vindas!  
+Caso tenha sugestões de melhorias, otimizações de código ou novas ideias para o portfólio, fique à vontade para:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Abrir uma **issue** aqui no repositório.  
+- Enviar um **pull request** explicando detalhadamente as alterações.  
 
-## Learn More
+Feedbacks também são muito valiosos — se achar que algo pode ser mais performático ou visualmente atraente, compartilhe!
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📬 Contato
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Leandro Kolosque**  
+[GitHub](https://github.com/Leandro-Kolosque) <br>
+[LinkedIn](https://www.linkedin.com/in/Leandro-Kolosque/)  <br>
+[Email](mailto:leandro.wingerth@gmail.com)  <br>
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🙏 Agradecimentos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Agradecimento especial à comunidade de desenvolvimento e aos criadores de ferramentas open source que tornaram possível a construção deste portfólio.
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a **MIT License** — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
