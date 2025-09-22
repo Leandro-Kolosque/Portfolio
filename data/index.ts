@@ -73,7 +73,7 @@ export const projects = [
     {
     id: 1,
     title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
     img: "/p1.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/Leandro-Kolosque/apple_website",
@@ -88,19 +88,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Minecraft Forge Mod - Odyssey Swords",
+    des: "Custom Minecraft Forge mod for 1.19.2 - 1.20.1, introducing unique weapons, effects, and gameplay mechanics.",
     img: "/p3.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/java.svg", "/curseForge.svg", "/gradle.svg", "/github.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
   },
   {
     id: 4,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Upcoming Project",
+    des: "A new project is currently in development. Stay tuned for something exciting coming soon!",
     img: "/p4.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    iconLists: ["/soon.svg", "/soon2.svg"],
+    link: "#",
   },
 
 ];
