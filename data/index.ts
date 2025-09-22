@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Journey", link: "#journey" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Animated Landing Page with GSAP",
     des: "Responsive landing page built with React and Vite, featuring smooth, high-performance animations powered by GSAP.",
-    img: "/p6.png",
+    img: "/p2.png",
     iconLists: ["/re.svg", "/vite.svg", "/gsap.svg", "/tail.svg"],
     link: "https://github.com/Leandro-Kolosque/gsap_landing",
   },
@@ -174,32 +174,32 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Computer Science Undergraduate",
+    desc: "Currently in the 6th semester of a Computer Science degree, focusing on software development, algorithms, and modern web technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
+    {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Open Source & Personal Projects",
+    desc: "Built personal and open source projects, including experiments such as game modding, exploring React.js, Node.js and accessibility-first design while applying best practices and version control.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Continuous Learning & Certifications",
+    desc: "Completed multiple online courses in React.js, JavaScript and modern web development, focusing on performance, security and scalability.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+{
+  id: 4,
+  title: "Administrative System for a UPA",
+  desc: "Led the development of a web-based management system for a public health unit (UPA), including patient records, staff scheduling, and data visualization features using Java and MySQL.",
+  className: "md:col-span-2",
+  thumbnail: "/exp4.svg",
+}
 ];
 
 export const socialMedia = [
