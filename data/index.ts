@@ -98,7 +98,7 @@ export const projects = [
     id: 4,
     title: "Upcoming Project",
     des: "A new project is currently in development. Stay tuned for something exciting coming soon!",
-    img: "/p4.svg",
+    img: "/upcoming.png",
     iconLists: ["/soon.svg", "/soon2.svg"],
     link: "#",
   },
