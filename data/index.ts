@@ -96,12 +96,20 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Upcoming Project",
-    des: "A new project is currently in development. Stay tuned for something exciting coming soon!",
-    img: "/upcoming.png",
-    iconLists: ["/soon.svg", "/soon2.svg"],
-    link: "#",
+    title: "Healthy Meals Landing Page",
+    des: "Responsive landing page built for a non-profit that sells healthy meal boxes",
+    img: "/p4.png",
+    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/figma.svg",],
+    link: "https://camilascozinhasaudavel.com.br/",
   },
+  // {
+  //   id: 4,
+  //   title: "Upcoming Project",
+  //   des: "A new project is currently in development. Stay tuned for something exciting coming soon!",
+  //   img: "/p4.png",
+  //   iconLists: ["/soon.svg", "/soon2.svg"],
+  //   link: "#",
+  // },
 
 ];
 

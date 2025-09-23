@@ -3,6 +3,7 @@ import React from "react";
 
 import { AnimatePresence, motion } from "motion/react";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
+import { cn } from "@/lib/utils";
 
 
 const Approach = () => {
@@ -68,11 +69,24 @@ const Card = ({
   description: string;
 }) => {
   const [hovered, setHovered] = React.useState(false);
+
+  // Função para alternar o estado no clique (para mobile)
+  const handleClick = () => {
+    // Apenas alterna se não estivermos em um dispositivo com hover (desktop)
+    // Isso evita que o clique no desktop "trave" o estado
+    if (window.matchMedia("(hover: none)").matches) {
+      setHovered(!hovered);
+    }
+  };
+
   return (
     <div
+      // Eventos para Desktop
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border group/canvas-card flex items-center justify-center border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl"
+      // Evento de clique para Mobile
+      onClick={handleClick}
+      className="border group/canvas-card flex items-center justify-center border-white/[0.2] max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl cursor-pointer"
     >
       <Icon className="absolute h-8 w-8 -top-3 -left-3 text-white opacity-30" />
       <Icon className="absolute h-8 w-8 -bottom-3 -left-3 text-white opacity-30" />
@@ -92,14 +106,39 @@ const Card = ({
       </AnimatePresence>
 
       <div className="relative z-20">
-        <div className="text-center group-hover/canvas-card:-translate-y-4  absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center">
+        {/*
+          * APLICANDO A LÓGICA DE TRANSIÇÃO DIRETAMENTE AQUI
+          * Se 'hovered' for true, aplica opacidade 0 e move para cima.
+          * Se for false, volta ao normal.
+        */}
+        <div
+          className={cn(
+            "text-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] transition-all duration-200 w-full mx-auto flex items-center justify-center",
+            hovered ? "opacity-0 -translate-y-8" : "opacity-100"
+          )}
+        >
           {icon}
         </div>
-        <h2 className="text-white text-center text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 mt-4  font-bold group-hover/canvas-card:text-white  group-hover/canvas-card:-translate-y-2 transition duration-200">
+        
+        {/*
+          * O texto já usa 'group-hover', mas para garantir consistência no mobile,
+          * podemos usar a mesma lógica do estado 'hovered'.
+        */}
+        <h2
+          className={cn(
+            "text-white text-center text-3xl relative z-10 mt-4 font-bold transition-all duration-200",
+            hovered ? "opacity-100 -translate-y-2" : "opacity-0"
+          )}
+        >
           {title}
         </h2>
-        <p className="text-sm opacity-0 group-hover/canvas-card:opacity-100 relative z-10 mt-4 group-hover/canvas-card:text-white text-center group-hover/canvas-card:-translate-y-2 transition duration-200"
-          style={{ color: "#E4ECFF" }}>
+        <p
+          className={cn(
+            "text-sm relative z-10 mt-4 text-center transition-all duration-200",
+            hovered ? "opacity-100 -translate-y-2" : "opacity-0"
+          )}
+          style={{ color: "#E4ECFF" }}
+        >
           {description}
         </p>
       </div>
