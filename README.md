@@ -36,6 +36,17 @@ Construído com foco em **performance, acessibilidade e experiência do usuário
 
 ---
 
+## 🌐 Acesse Online
+
+O portfólio está hospedado e disponível para visualização:  
+👉 [Clique aqui para acessar](https://kolosque.me/)  
+
+Ou, se preferir, escaneie o QR Code:
+
+  <img src="public/qr-code-portfolio.png" alt="QR Code do Portfólio" width="200"/>
+
+---
+
 ## 🔧 Como Executar Localmente
 
 ```bash
