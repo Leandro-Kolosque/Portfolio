@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently learning Python back-end development with Alura.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -98,7 +98,7 @@ export const projects = [
     id: 4,
     title: "Healthy Meals Landing Page",
     des: "Responsive landing page built for a non-profit that sells healthy meal boxes",
-    img: "/p4.png",
+    img: "/project4.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg", "/figma.svg",],
     link: "https://camilascozinhasaudavel.com.br/",
   },
@@ -185,7 +185,7 @@ export const workExperience = [
     title: "Computer Science Undergraduate",
     desc: "Currently in the 6th semester of a Computer Science degree, focusing on software development, algorithms, and modern web technologies.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp6.png",
   },
     {
     id: 2,
@@ -206,7 +206,7 @@ export const workExperience = [
   title: "Administrative System for a UPA",
   desc: "Led the development of a web-based management system for a public health unit (UPA), including patient records, staff scheduling, and data visualization features using Java and MySQL.",
   className: "md:col-span-2",
-  thumbnail: "/exp4.svg",
+  thumbnail: "/exp5.png",
 }
 ];
 
