@@ -76,7 +76,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
     img: "/project1.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/Leandro-Kolosque/apple_website",
+    link: "https://apple-website-kolosque.vercel.app/",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "Responsive landing page built with React and Vite, featuring smooth, high-performance animations powered by GSAP.",
     img: "/project2.png",
     iconLists: ["/re.svg", "/vite.svg", "/gsap.svg", "/tail.svg"],
-    link: "https://github.com/Leandro-Kolosque/gsap_landing",
+    link: "https://gsap-landing-kolosque.vercel.app/",
   },
   {
     id: 3,
