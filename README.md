@@ -43,7 +43,7 @@ O portfólio está hospedado e disponível para visualização:
 
 Ou, se preferir, escaneie o QR Code:
 
-  <img src="public/qr-code-portfolio.png" alt="QR Code do Portfólio" width="200"/>
+  <img src="public/qr-code.png" alt="QR Code do Portfólio" width="200"/>
 
 ---
 
